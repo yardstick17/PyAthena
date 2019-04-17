@@ -17,7 +17,7 @@ with open(path.join(p, 'README.md')) as f:
 
 setup(
     name="python-athena",
-    version="0.2.0",
+    version="0.2.1",
     packages=find_packages(),
     scripts=[],
     long_description=README,
