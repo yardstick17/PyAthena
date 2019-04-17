@@ -4,7 +4,7 @@
 A python client to query on Athena Database. Query results are formatted in dataframe.
 
 ```python
-In [9]: from prt_contrib.aws.athena import  Athena
+In [9]: from athena import Athena
 
 In [10]: query =    """SELECT col1, col2, col3, col3  
                         FROM "database"."table1"
