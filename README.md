@@ -1,7 +1,7 @@
 
 ### PyAthena
 
-A python client to query on Athena Database. Query results are formatted in dataframe.
+A python client to query on Athena Database. Query results are formatted in pandas dataframe.
 
 
 ### Install
