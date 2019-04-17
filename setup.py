@@ -11,7 +11,7 @@ def install_dependencies():
     return []
 
 p = path.abspath(path.dirname(__file__))
-with open(path.join(p, '../README.md')) as f:
+with open(path.join(p, 'README.md')) as f:
     README = f.read()
 
 
@@ -21,6 +21,7 @@ setup(
     packages=find_packages(),
     scripts=[],
     long_description=README,
+    long_description_content_type='text/markdown',
     install_requires=install_dependencies(),
     package_data={
         # If any package contains *.txt or *.rst files, include them:
