@@ -6,7 +6,7 @@ A python client to query on Athena Database. Query results are formatted in data
 
 ### Install
 ```bash
-pip install https://github.com/yardstick17/PyAthena.git
+pip install git+https://github.com/yardstick17/PyAthena.git
 ```
 
 ### Usage
