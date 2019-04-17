@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import subprocess
+from os import path
 
 from setuptools import find_packages
 from setuptools import setup
@@ -9,12 +10,17 @@ def install_dependencies():
     subprocess.check_call("pip install -r requirements.txt", shell=True)
     return []
 
+p = path.abspath(path.dirname(__file__))
+with open(path.join(p, '../README.md')) as f:
+    README = f.read()
+
 
 setup(
     name="python-athena",
-    version="0.1",
+    version="0.2.0",
     packages=find_packages(),
     scripts=[],
+    long_description=README,
     install_requires=install_dependencies(),
     package_data={
         # If any package contains *.txt or *.rst files, include them:
