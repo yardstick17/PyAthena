@@ -3,6 +3,14 @@
 
 A python client to query on Athena Database. Query results are formatted in dataframe.
 
+
+### Install
+```bash
+pip install https://github.com/yardstick17/PyAthena.git
+```
+
+### Usage
+
 ```python
 In [9]: from athena import Athena
 
@@ -24,4 +32,3 @@ Out[12]:
 3  PI912A0CV-O12            0                      0.0                      0.829332
 4  PI912A0CV-O12            0                      0.0                      0.058469
 ```
-
