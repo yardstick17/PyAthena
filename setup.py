@@ -11,7 +11,7 @@ def install_dependencies():
 
 
 setup(
-    name="pyathena",
+    name="python-athena",
     version="0.1",
     packages=find_packages(),
     scripts=[],
