@@ -5,8 +5,14 @@ A python client to query on Athena Database. Query results are formatted in pand
 
 
 ### Install
+For latest:
 ```bash
 pip install git+https://github.com/yardstick17/PyAthena.git
+```
+
+Pip Package:
+```bash
+pip install python-athena
 ```
 
 ### Usage
