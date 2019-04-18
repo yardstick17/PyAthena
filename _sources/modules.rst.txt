@@ -1,0 +1,9 @@
+PyAthena
+========
+
+.. toctree::
+   :maxdepth: 4
+
+   athena
+   conf
+   setup

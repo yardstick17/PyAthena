@@ -1,0 +1,7 @@
+athena module
+=============
+
+.. automodule:: athena
+    :members:
+    :undoc-members:
+    :show-inheritance:
