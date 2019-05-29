@@ -22,7 +22,7 @@ def gh(name, version):
         proto = 'git+https://'
     else:
         proto = 'git+ssh://git@'
-    return '{proto}github.com//{name}.git@{version}' \
+    return '{proto}github.com/{name}.git@{version}' \
            '#egg={package}-{version}'.format(**locals())
 
 
