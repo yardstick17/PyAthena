@@ -41,7 +41,7 @@ with open(path.join(p, 'README.md')) as f:
     README = f.read()
 
 setup(
-    name="python-athena",
+    name="PyAthena",
     version="0.2.1",
     packages=find_packages(),
     long_description=README,
